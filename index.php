@@ -10,6 +10,6 @@
     <title>Home</title>
 </head>
 <body>
-
+<?= include "crud/read/read.php" ?>; ?>
 </body>
 </html>
