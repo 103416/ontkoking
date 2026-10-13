@@ -2,15 +2,16 @@
 
 ## 1. Doelgroeponderzoek
 
-* **Wie is onze gebruiker?** [Beschrijf de Gen Z student]
+* **Wie is onze gebruiker?** *[Beschrijf de Gen Z student]*
+  * Gen Z studenten die gezonder willen eten, en meer geld willen besparen (want leven is duur), maar geen zin hebben om veel te koken
 
-* **Pijnpunten (Pains):**
 
-* *[Bijv: Te weinig geld door dure bezorgdiensten]*
+* **Pijnpunten (Pains):** *[Bijv: Te weinig geld door dure bezorgdiensten]*
+  * blablabla
 
-* **Behoeftes (Gains):**
 
-* *[Bijv: Gezond willen eten, maar het mag max 20 minuten duren]*
+* **Behoeftes (Gains):** *[Bijv: Gezond willen eten, maar het mag max 20 minuten duren]*
+  * blablabla
 
 ## 2. Empathy Map (Visueel)
 
