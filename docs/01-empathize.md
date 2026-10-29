@@ -19,4 +19,6 @@
 
 ## 3. Conclusie
 
-*Wat is het belangrijkste inzicht dat we meenemen naar de Define fase?*
+We maken een website voor Gen Z'ers die hun informeert over hoe ze goedkoop, lekker en zelfstandig kunnen koken.
+
+[//]: # (*Wat is het belangrijkste inzicht dat we meenemen naar de Define fase?*)
