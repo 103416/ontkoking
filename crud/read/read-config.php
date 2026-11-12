@@ -4,20 +4,19 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 try {
-    $pdo = new PDO("sqlite:../../database.sqlite");
-}catch (PDOException $e){echo "Error: ".$e->getMessage();}
+    $pdo = new PDO("sqlite:database.sqlite");
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$id = $_POST["id"];
-$title = $_POST["title"];
-$author = $_POST["author"];
-$recept = $_POST["recept"];
+    $stmt = $pdo->prepare("
+        SELECT id, title, author, recept, image
+        FROM recepten
+        ORDER BY id DESC
+    ");
 
-$stmt = $pdo->prepare("SELECT * FROM recepten");
-$stmt->execute([
-    ':ID' => $id,
-    ':title' => $title,
-    ':author' => $author,
-    ':recept' => $recept
-]);
+    $stmt->execute();
 
-$results = $stmt->fetchAll();
+    $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+} catch (PDOException $e) {
+    die("Error: " . $e->getMessage());
+}
