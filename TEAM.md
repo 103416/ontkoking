@@ -6,7 +6,7 @@
 twijfel.*
 * **Scrum Master:** [Youri] *(Verantwoordelijk voor Stand-ups, GitHub Projects
 board en communicatie)*
-* **Lead Design:** [Naam] *(Bewaakt visuele stijl en UI/UX keuzes)*
+* **Lead Design:** [Thomas] *(Bewaakt visuele stijl en UI/UX keuzes)*
 * **Lead Git/Dev:** [Ruben] *(Bewaakt code quality en let streng op PR's)*
 ## 3. GitHub & Code Afspraken
 * **Branching:** Niemand commit rechtstreeks naar

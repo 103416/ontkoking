@@ -17,10 +17,18 @@ require_once "read-config.php";
     <article>
         <h2><?= htmlspecialchars($result['title']) ?></h2>
 
-        <p>
-            <strong>ID:</strong>
-            <?= htmlspecialchars($result['id']) ?>
-        </p>
+<!--        <p>-->
+<!--            <strong>ID:</strong>-->
+<!--            --><?php //= htmlspecialchars($result['id']) ?>
+<!--        </p>-->
+
+        <?php if (!empty($result['image'])): ?>
+            <img
+                    src="<?= htmlspecialchars($result['image']) ?>"
+                    alt="<?= htmlspecialchars($result['title']) ?>"
+                    width="300"
+            >
+        <?php endif; ?>
 
         <p>
             <strong>Auteur:</strong>
@@ -32,13 +40,6 @@ require_once "read-config.php";
             <?= nl2br(htmlspecialchars($result['recept'])) ?>
         </p>
 
-        <?php if (!empty($result['image'])): ?>
-            <img
-                src="<?= htmlspecialchars($result['image']) ?>"
-                alt="<?= htmlspecialchars($result['title']) ?>"
-                width="300"
-            >
-        <?php endif; ?>
 
         <hr>
     </article>
