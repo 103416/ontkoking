@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $filePath
         );
 
-        $image = "../images/" . $fileName;
+        $image = "images/" . $fileName;
     }
 
     $stmt = $pdo->prepare("
